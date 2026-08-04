@@ -3,6 +3,7 @@
 
 * [The Reason Operation Barbarossa Failed](https://youtu.be/pqZnuij5syE?t=283)
 
+![planning-map.png](planning-map.png)
 * https://claude.ai/chat/d5c1c123-16e6-4665-85b0-a07d3858eb1a
 * https://chatgpt.com/c/6a715393-4fa4-83ea-85eb-8396ae0b6252
 
