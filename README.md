@@ -7,6 +7,67 @@
 * https://claude.ai/chat/d5c1c123-16e6-4665-85b0-a07d3858eb1a
 * https://chatgpt.com/c/6a715393-4fa4-83ea-85eb-8396ae0b6252
 
+
+
+------------
+------------
+------------
+
+
+The image appears to be a **German World War II-era strategic map of the European part of the Soviet Union**.
+
+At the top left I can read:
+
+> **UNION der SOZIALISTISCHEN SOWJETREPUBLIKEN**
+> **Europäische Teile** ("European Part")
+> **Schwerpunkte der Wehrwirtschaft** ("Centers/Focal Points of the War Economy")
+
+That title strongly suggests this is **not a Soviet map**, but a **German military or economic intelligence map** showing the industrial and military-economic infrastructure of the western USSR.
+
+The map likely depicts:
+
+* Major industrial centers
+* Arms factories
+* Steel and coal production
+* Oil facilities
+* Aircraft, tank, and shipbuilding industries
+* Railroads connecting those industries
+* Important ports and transportation hubs
+
+The circled symbols around cities such as:
+
+* Leningrad (near Finland)
+* Moscow
+* Gorky (Nizhny Novgorod)
+* Kharkiv
+* Donbas
+* Rostov
+* Crimea
+
+represent concentrations of different industries. The colored pictograms denote different sectors (steel, machinery, chemicals, aviation, shipbuilding, etc.), while the rail network shows how these centers were connected.
+
+This type of map was commonly produced by:
+
+* the **German Wehrmacht High Command (OKW/OKH)**,
+* the **German General Staff**, or
+* German economic intelligence agencies
+
+before and during **Operation Barbarossa (1941)** to understand the Soviet Union's industrial capacity.
+
+So, in short:
+
+> **This is a German military intelligence map of the European USSR showing the distribution of Soviet war industry and strategic economic infrastructure.**
+
+If you tell me **where you photographed it** (museum, archive, or exhibition), I may be able to identify the exact document and date.
+
+
+------------
+------------
+------------
+
+
+
+
 This is genuinely one of the most important and disturbing dimensions of Barbarossa — the plans went far beyond military conquest into large-scale demographic engineering and mass death. Here's what German planning actually called for:
 
 ## Generalplan Ost (General Plan East)
