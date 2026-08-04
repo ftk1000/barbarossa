@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Operation Barbarossa: The Map and the Plan Behind It</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+  :root{color-scheme:light dark;--bg:#f4f1e8;--surface:#fffdf7;--text:#24211d;--muted:#6b6258;--accent:#7b2d26;--border:#d7cdbf;--quote:#eee6d8;--link:#7b2d26}
+  @media(prefers-color-scheme:dark){:root{--bg:#171513;--surface:#211e1a;--text:#eee8de;--muted:#b8aea1;--accent:#e49a8f;--border:#4b443b;--quote:#2c2721;--link:#f0a69b}}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Georgia,"Times New Roman",serif;font-size:18px;line-height:1.72}main{width:min(900px,calc(100% - 32px));margin:40px auto;padding:clamp(24px,5vw,64px);background:var(--surface);border:1px solid var(--border);border-radius:14px;box-shadow:0 12px 35px rgba(0,0,0,.08)}h1,h2,h3{line-height:1.25;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:-.02em}h1{margin-top:0;font-size:clamp(2.2rem,6vw,4rem);color:var(--accent)}h2{margin-top:2.4em;padding-bottom:.35em;border-bottom:1px solid var(--border);font-size:clamp(1.6rem,4vw,2.15rem)}h3{margin-top:1.8em;font-size:1.35rem}p{margin:1em 0}a{color:var(--link);text-underline-offset:.18em}a:hover{text-decoration-thickness:2px}img{display:block;max-width:100%;height:auto;margin:2rem auto;border:1px solid var(--border);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.12)}blockquote{margin:1.5rem 0;padding:.8rem 1.2rem;background:var(--quote);border-left:5px solid var(--accent);border-radius:0 8px 8px 0}blockquote p{margin:.4rem 0}ul,ol{padding-left:1.5rem}li{margin:.35rem 0}hr{margin:2.4rem 0;border:0;border-top:1px solid var(--border)}table{width:100%;margin:1.8rem 0;border-collapse:collapse;font-size:.95rem}th,td{padding:.8rem;border:1px solid var(--border);text-align:left;vertical-align:top}th{background:var(--quote);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}code{padding:.1em .3em;border-radius:4px;background:var(--quote)}footer{margin-top:3rem;padding-top:1.25rem;border-top:1px solid var(--border);color:var(--muted);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:.88rem}@media(max-width:600px){body{font-size:16px}main{width:100%;margin:0;border:0;border-radius:0;box-shadow:none}table{display:block;overflow-x:auto}}
+  </style>
+</head>
+<body>
+<main>
+<header id="title-block-header">
+<h1 class="title">Operation Barbarossa: The Map and the Plan Behind
+It</h1>
+</header>
+<h1 id="barbarossa">barbarossa</h1>
+<p>2026.08.03</p>
+<ul>
+<li><a href="https://youtu.be/pqZnuij5syE?t=283">The Reason Operation
+Barbarossa Failed</a></li>
+</ul>
+<p><img src="planning-map.png" alt="planning-map.png" /></p>
+<hr />
+<hr />
+<hr />
+<p>The image appears to be a <strong>German World War II-era strategic
+map of the European part of the Soviet Union</strong>.</p>
+<p>At the top left I can read:</p>
+<blockquote>
+<p><strong>UNION der SOZIALISTISCHEN SOWJETREPUBLIKEN</strong>
+<strong>Europäische Teile</strong> ("European Part")
+<strong>Schwerpunkte der Wehrwirtschaft</strong> ("Centers/Focal Points
+of the War Economy")</p>
+</blockquote>
+<p>That title strongly suggests this is <strong>not a Soviet
+map</strong>, but a <strong>German military or economic intelligence
+map</strong> showing the industrial and military-economic infrastructure
+of the western USSR.</p>
+<p>The map likely depicts:</p>
+<ul>
+<li>Major industrial centers</li>
+<li>Arms factories</li>
+<li>Steel and coal production</li>
+<li>Oil facilities</li>
+<li>Aircraft, tank, and shipbuilding industries</li>
+<li>Railroads connecting those industries</li>
+<li>Important ports and transportation hubs</li>
+</ul>
+<p>The circled symbols around cities such as:</p>
+<ul>
+<li>Leningrad (near Finland)</li>
+<li>Moscow</li>
+<li>Gorky (Nizhny Novgorod)</li>
+<li>Kharkiv</li>
+<li>Donbas</li>
+<li>Rostov</li>
+<li>Crimea</li>
+</ul>
+<p>represent concentrations of different industries. The colored
+pictograms denote different sectors (steel, machinery, chemicals,
+aviation, shipbuilding, etc.), while the rail network shows how these
+centers were connected.</p>
+<p>This type of map was commonly produced by:</p>
+<ul>
+<li>the <strong>German Wehrmacht High Command (OKW/OKH)</strong>,</li>
+<li>the <strong>German General Staff</strong>, or</li>
+<li>German economic intelligence agencies</li>
+</ul>
+<p>before and during <strong>Operation Barbarossa (1941)</strong> to
+understand the Soviet Union's industrial capacity.</p>
+<p>So, in short:</p>
+<blockquote>
+<p><strong>This is a German military intelligence map of the European
+USSR showing the distribution of Soviet war industry and strategic
+economic infrastructure.</strong></p>
+</blockquote>
+<p>If you tell me <strong>where you photographed it</strong> (museum,
+archive, or exhibition), I may be able to identify the exact document
+and date.</p>
+<hr />
+<hr />
+<hr />
+<p>This is genuinely one of the most important and disturbing dimensions
+of Barbarossa — the plans went far beyond military conquest into
+large-scale demographic engineering and mass death. Here's what German
+planning actually called for:</p>
+<h2 id="generalplan-ost-general-plan-east">Generalplan Ost (General Plan
+East)</h2>
+<p>This was the master blueprint for the long-term colonization and
+ethnic reorganization of Eastern Europe and the western USSR, developed
+by the SS Reich Security Main Office (RSHA) alongside various planning
+offices.</p>
+<ul>
+<li><strong>Deportation and displacement</strong>: The plan envisioned
+deporting the vast majority of the Slavic population (Russians,
+Ukrainians, Belarusians, Poles) further east, over a period of roughly
+25–30 years, to make room for German settlers.</li>
+<li><strong>Estimated numbers</strong>: Drafts of the plan discussed
+removing somewhere between <strong>31 million and 45 million
+people</strong> from the target territories, depending on the version of
+the plan and scope considered.</li>
+<li><strong>Germanization</strong>: A small percentage of the population
+deemed "racially valuable" (often based on pseudo-scientific criteria)
+was to be Germanized and absorbed; the rest were to be pushed into
+Siberia, reduced to slave labor, or eliminated.</li>
+<li><strong>Settlement</strong>: German farmers and colonists
+("Wehrbauern," or soldier-farmers) were to be settled on the cleared
+land, organized around planned agricultural colonies and
+strongpoints.</li>
+</ul>
+<h2 id="the-hunger-plan-der-hungerplan">The Hunger Plan (Der
+Hungerplan)</h2>
+<p>Devised primarily by Herbert Backe (state secretary for food) and
+economic planners like the Wirtschaftsstab Ost — this ties directly back
+to the war-economy map you photographed.</p>
+<ul>
+<li>The core idea: the German army and home front would be fed by
+<strong>stripping food from Soviet territory</strong>, especially
+Ukraine's agricultural surplus, and redirecting it to Germany.</li>
+<li>Planners explicitly calculated that this would cause <strong>mass
+starvation of tens of millions of Soviet civilians</strong>,
+particularly in urban areas and the forest-zone north (Russia proper),
+which were considered "surplus population" that didn't need to be fed at
+all.</li>
+<li>Internal documents (from a May 1941 economic policy conference)
+stated plainly that "many tens of millions of people will be superfluous
+and must die or emigrate to Siberia."</li>
+</ul>
+<h2 id="treatment-of-specific-groups">Treatment of Specific Groups</h2>
+<ul>
+<li><strong>Jews</strong>: Barbarossa was launched alongside the
+deployment of the <strong>Einsatzgruppen</strong> (mobile killing
+squads), which followed the advancing army and carried out mass
+shootings of Jewish communities — this predates and then feeds into the
+formalized Holocaust machinery (Wannsee Conference, Jan 1942).</li>
+<li><strong>Soviet POWs</strong>: The infamous <strong>Commissar
+Order</strong> directed the summary execution of captured Soviet
+political officers. More broadly, of roughly 5.7 million Soviet POWs
+captured over the war, around <strong>3.3 million died in German
+captivity</strong>, largely through deliberate starvation and neglect —
+not incidental mistreatment, but a foreseeable and in many cases
+intended outcome of policy.</li>
+<li><strong>Urban populations</strong>: Leningrad and Moscow were
+specifically slated not for capture-and-administration but for
+<strong>destruction/starvation</strong> — Hitler's directives called for
+Leningrad to be encircled and starved rather than occupied, its
+population left to die rather than be fed.</li>
+</ul>
+<h2 id="how-this-connects-to-your-map">How This Connects to Your
+Map</h2>
+<p>The Wehrwirtschaft map you found — cataloguing industrial capacity —
+sits right alongside this planning apparatus. The economic staff mapping
+factories and resources were part of the same bureaucratic machine
+calculating <strong>how much food and industrial output could be
+extracted, and how many people that extraction would starve</strong>. It
+wasn't a side effect; it was budgeted.</p>
+<p>If you want, I can go deeper into any one thread — the Generalplan
+Ost's specific regional variants (there were several drafts, e.g., by
+Konrad Meyer), the Hunger Plan's internal memos, or how these plans
+shifted once the "quick war" assumption collapsed after Moscow.</p>
+<hr />
+<hr />
+<hr />
+<h1 id="the-map-and-the-plan-behind-it-a-combined-assessment">The Map
+and the Plan Behind It: A Combined Assessment</h1>
+<h2 id="what-the-map-shows">What the Map Shows</h2>
+<p>The document is a German-produced intelligence/planning map titled
+<strong>"Union der Sozialistischen Sowjetrepubliken, Europäischer
+Teil"</strong> with the subtitle <strong>"Schwerpunkte der
+Wehrwirtschaft"</strong> ("Focal Points of the War Economy"). This is
+not a Soviet document — it's a product of German military-economic
+intelligence, almost certainly compiled by the Wehrmacht High Command
+(OKW/OKH), the General Staff, or affiliated economic planning offices
+(such as the <em>Wirtschaftsstab Ost</em>) in preparation for
+<strong>Operation Barbarossa</strong>.</p>
+<p>The map catalogues Soviet industrial and military-economic
+infrastructure across European Russia, using clustered pictogram symbols
+to mark:</p>
+<ul>
+<li>Major industrial centers and arms factories</li>
+<li>Steel, coal, and chemical production</li>
+<li>Oil facilities and refineries</li>
+<li>Aircraft, tank, and shipbuilding capacity</li>
+<li>Rail networks linking these centers</li>
+<li>Key ports and transport hubs</li>
+</ul>
+<p>The ovals cluster around recognizable strategic regions:
+<strong>Leningrad</strong> (northwest, near Finland),
+<strong>Moscow</strong> (political/transport hub), <strong>Gorky/Nizhny
+Novgorod</strong>, <strong>Kharkiv</strong>, the <strong>Donbas</strong>
+(the USSR's principal coal and heavy-industry basin),
+<strong>Rostov</strong>, and <strong>Crimea</strong>, with the route
+further south pointing toward the <strong>Caucasus oil fields</strong> —
+later the explicit target of the 1942 follow-up campaign, Operation
+Blue.</p>
+<p>The map's core purpose: help planners answer <em>which regions to
+seize first, which cities held tank/aircraft/ammunition production,
+where the coal-iron-oil base sat, and which rail hubs and cities to
+prioritize for bombing or occupation.</em> This economic-intelligence
+function connects it directly to what German planners were
+simultaneously calculating about the population living on top of that
+infrastructure.</p>
+<h2 id="the-underlying-assumption-of-barbarossa">The Underlying
+Assumption of Barbarossa</h2>
+<p>German planners believed that seizing these industrial and economic
+centers would collapse the Soviet capacity to wage war, combined with
+the belief that the Soviet state itself would crumble once its border
+armies were destroyed. This assumption proved only partially correct:
+thousands of Soviet factories were dismantled and evacuated east of the
+Urals ahead of the German advance, industry was reassembled and resumed
+production there, and the "quick war" turned into a prolonged war of
+attrition.</p>
+<h2 id="what-germans-planned-for-the-soviet-population">What Germans
+Planned for the Soviet Population</h2>
+<p>Behind the economic-intelligence mapping sat a parallel, far darker
+planning apparatus for the people living in the territory being mapped.
+This wasn't incidental to the invasion — it was budgeted and calculated
+alongside the industrial targets.</p>
+<h3 id="generalplan-ost-general-plan-east-1">Generalplan Ost (General
+Plan East)</h3>
+<p>The SS Reich Security Main Office's master blueprint for the
+long-term colonization of the conquered east:</p>
+<ul>
+<li><strong>Mass deportation eastward</strong>: The Slavic population
+(Russians, Ukrainians, Belarusians, Poles) was to be displaced further
+into Siberia over roughly 25–30 years to clear land for German
+settlers.</li>
+<li><strong>Estimated scope</strong>: Drafts of the plan discussed
+removing somewhere between <strong>31 million and 45 million
+people</strong>, depending on the version and territorial scope
+considered.</li>
+<li><strong>Selective Germanization</strong>: A small fraction deemed
+"racially valuable" would be absorbed into the German population; the
+rest faced displacement, enslavement, or death.</li>
+<li>German farmer-settlers (<em>Wehrbauern</em>) were to be resettled on
+the cleared land.</li>
+</ul>
+<h3 id="the-hunger-plan-der-hungerplan-1">The Hunger Plan (Der
+Hungerplan)</h3>
+<p>Devised largely by Herbert Backe and the same economic-planning
+apparatus responsible for maps like this one:</p>
+<ul>
+<li>The plan called for <strong>diverting Soviet agricultural surplus
+(especially from Ukraine) to feed Germany</strong>, while deliberately
+cutting off food to Soviet cities and the northern forest zone.</li>
+<li>Internal planning documents from May 1941 stated explicitly that
+this policy would cause <strong>"tens of millions of people" to die or
+be forced to emigrate to Siberia</strong> — this was a foreseen and
+accepted outcome, not an unintended side effect.</li>
+<li><strong>Leningrad</strong> specifically was targeted for
+encirclement and starvation rather than capture — Hitler's directive
+called for the city to be sealed off and its population left to
+die.</li>
+</ul>
+<h3 id="treatment-of-specific-groups-1">Treatment of Specific
+Groups</h3>
+<ul>
+<li><strong>Jewish population</strong>: The invasion was launched
+alongside the deployment of the <strong>Einsatzgruppen</strong>, mobile
+killing units that carried out mass shootings of Jewish communities in
+newly occupied territory — the operational precursor to the formalized
+Holocaust apparatus established at the Wannsee Conference in January
+1942.</li>
+<li><strong>Soviet POWs</strong>: The <strong>Commissar Order</strong>
+mandated summary execution of captured political officers. Of roughly
+<strong>5.7 million Soviet POWs</strong> captured over the war,
+approximately <strong>3.3 million died in German captivity</strong>,
+overwhelmingly through deliberate starvation and neglect.</li>
+</ul>
+<h2 id="combined-death-toll-under-german-planning">Combined Death Toll
+Under German Planning</h2>
+<p>Putting the pieces together, German planning documents — not later
+estimates by historians, but the Germans' own internal projections —
+anticipated civilian and POW deaths in the tens of millions if
+Barbarossa succeeded as planned:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Category</th>
+<th>Planned/Actual Scale</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Population targeted for deportation (Generalplan Ost)</td>
+<td>31–45 million</td>
+</tr>
+<tr class="even">
+<td>Civilian starvation deaths anticipated (Hunger Plan)</td>
+<td>"Tens of millions" (explicitly stated in planning documents)</td>
+</tr>
+<tr class="odd">
+<td>Soviet POW deaths (actual, 1941–45)</td>
+<td>~3.3 million of 5.7 million captured</td>
+</tr>
+<tr class="even">
+<td>Jewish civilians killed by Einsatzgruppen (1941 onward)</td>
+<td>In the hundreds of thousands within the first year alone, rising
+into the millions as the broader Holocaust unfolded</td>
+</tr>
+</tbody>
+</table>
+<p>Taken together, German planners were not simply pursuing military
+conquest — they were designing a program of engineered famine, mass
+deportation, and selective extermination intended to permanently
+depopulate and re-colonize the western Soviet Union. The war-economy map
+you photographed is a small but telling artifact of that same planning
+machine: an inventory of what the Germans intended to extract, sitting
+alongside a parallel ledger of how many people that extraction was
+expected to kill.</p>
+<hr />
+<hr />
+<hr />
+<footer>Prepared as a standalone GitHub Pages document.</footer>
+</main>
+</body>
+</html>
