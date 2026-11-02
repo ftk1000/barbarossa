@@ -10,6 +10,10 @@
 
 # more ww2 videos
 * [Уникальная кинохроника разгрома Красной армии в котлах 1941 года. Анатомия катастрофы](https://www.youtube.com/watch?v=xDzJR34vDbM)
+* [Uncensored Footage From The Opening Months Of Operation Barbarossa](https://youtu.be/Psq2RJmTDik?is=tHP0oGajZor61XfB)
+  
+
+
 ------------
 ------------
 ------------
