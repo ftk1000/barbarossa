@@ -1,4 +1,4 @@
-# barbarossa
+# Barbarossa
 2026.08.03
 
 * [The Reason Operation Barbarossa Failed](https://youtu.be/pqZnuij5syE?t=283)
