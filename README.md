@@ -2,9 +2,10 @@
 2026.08.03
 
 * [The Reason Operation Barbarossa Failed](https://youtu.be/pqZnuij5syE?t=283)
+* [Uncensored Footage From The Opening Months Of Operation Barbarossa](https://youtu.be/Psq2RJmTDik?is=tHP0oGajZor61XfB)
 # more ww2 videos
 * [Уникальная кинохроника разгрома Красной армии в котлах 1941 года. Анатомия катастрофы](https://www.youtube.com/watch?v=xDzJR34vDbM)
-* [Uncensored Footage From The Opening Months Of Operation Barbarossa](https://youtu.be/Psq2RJmTDik?is=tHP0oGajZor61XfB)
+* [Уникальная кинохроника кровавого штурма Берлина (Апрель- Май 1945 года)](https://www.youtube.com/watch?v=tTc0NsB-QY8)
 
 ![planning-map.png](planning-map.png)
 * https://claude.ai/chat/d5c1c123-16e6-4665-85b0-a07d3858eb1a
